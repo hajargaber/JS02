@@ -1,0 +1,63 @@
+
+ /* start global styles */
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.font-arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.font-impact{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ /* end global styles */
+
+
+ /* start hero-sec  */
+
+ .hero-sec > h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: black;
+ }
+
+ .hero-sec > h2{
+    font-size: 2.1875rem;
+    font-weight: 400;
+    color: black;
+ }
+.quote-btn{
+    padding:25px 90px;
+    background-color: blue;
+    cursor: default;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid #545454;
+    border-top: 3px solid #545454;
+    color: white;
+    font-size: .8125rem;
+    font-weight: 400;
+}
+.quote-btn:active{
+            border-left: 3px solid black;
+            border-top: 3px solid black;
+            border-right: 3px solid #545454;
+            border-bottom: 3px solid #545454;`
+}
+
+button:not(:disabled) {
+    cursor: default;
+}
+.quote-btn:hover{
+    background-color: green;
+}
+
+.change-items > h3 , .change-items > h4{
+    font-size: 2.1875rem;
+    font-weight: 400;
+    color: black;
+}
+
+
+
+ /* end hero-sec  */
